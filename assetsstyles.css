@@ -1,0 +1,56 @@
+﻿/* General Layout */
+body {
+    background-color: #f6f8fc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #1a2b4c;
+}
+
+.stApp {
+    padding: 2rem 1rem;
+}
+
+/* Sidebar */
+section[data-testid=stSidebar] {
+    background-color: #eaf1fb;
+}
+
+/* Custom Banner */
+.custom-header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Quiz Enhancements */
+div[class^="stRadio"] {
+    border: 1px solid #dce6f1;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #ffffffcc;
+}
+
+.st-success {
+    background-color: #d4edda !important;
+    border: 1px solid #c3e6cb !important;
+}
+
+.st-error {
+    background-color: #f8d7da !important;
+    border: 1px solid #f5c6cb !important;
+}
+
+/* Expander Styling */
+.st-expander {
+    border-radius: 10px;
+    border: 1px solid #c3dafe;
+    background-color: #f0f8ff;
+}
