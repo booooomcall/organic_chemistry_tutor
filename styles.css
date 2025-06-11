@@ -1,0 +1,17 @@
+﻿body {
+    background-color: #f6f8fc;
+    font-family: 'Segoe UI', sans-serif;
+}
+h1, h2, h3 {
+    color: #1a2b4c;
+}
+.custom-header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
